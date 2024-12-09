@@ -193,7 +193,7 @@ header nav ul li:hover ul {
 table {
 border-collapse: collapse;
 font-family: sans-serif;
-font-size: 0.8rem;
+font-size: 10px;
 letter-spacing: 1px;
 }
 .main-nav ul {
