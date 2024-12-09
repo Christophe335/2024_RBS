@@ -15,21 +15,31 @@ $articles = $query->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
     
-            <?php include 'header.php' ?>
+            
     
     <main>
         <h1>Articles en Promotion</h1>
         <div class="articles-container">
             <?php foreach ($articles as $article): ?>
-                <div class="article-card">
-                    <img src="<?= $article['lien_photo'] ?>" alt="<?= $article['nom_article'] ?>">
-                    <h2><?= $article['nom_article'] ?></h2>
-                    <p>Prix : <s><?= $article['prix_article'] ?>€</s> <strong><?= $article['prix_promo'] ?>€</strong></p>
-                    <p><?= $article['description_article'] ?></p>
-                    <button onclick="openModal('caracteristique', <?= $article['id'] ?>)">Voir caractéristiques</button>
-                    <button onclick="openModal('video', <?= $article['id'] ?>)">Voir vidéo</button>
-                    <button onclick="ajouterAuPanier(<?= $article['id'] ?>)">Ajouter au panier</button>
-                </div>
+                <div class="article-card-line grille">
+                    <div class="grilleimage">
+                        <img src="<?= $article['lien_photo'] ?>" alt="<?= $article['nom_article'] ?>">
+                    </div>
+                    <div class="grillenom">
+                        <h2><?= $article['nom_article'] ?></h2>
+                    </div>
+                    <div class="grilleprix">
+                        <p>Prix : <s><?= $article['prix_article'] ?>€</s> <strong style="color:red;"><?= $article['prix_promo'] ?>€</strong></p>
+                    </div>
+                    <div class="grilledescription">
+                        <p><?= $article['description_article'] ?></p>
+                    </div>
+                    <div class="row groupebouton grillebouton">    
+                        <button class="bouton1" onclick="openModal('caracteristique', <?= $article['id'] ?>)">Voir caractéristiques</button>
+                        <button class="bouton2" onclick="openModal('video', <?= $article['id'] ?>)">Voir vidéo</button>
+                        <button class="bouton3" onclick="ajouterAuPanier(<?= $article['id'] ?>)">Ajouter au panier</button>
+                    </div>
+                </div>   
             <?php endforeach; ?>
         </div>
     </main>

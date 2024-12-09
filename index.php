@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>gestion d'articles</title>
-</head>
+</head> 
 <body>
-<?php include 'promotions.php' ?>
-
+    <header>
+    <?php include 'header.php' ?>
+    </header>
+    <?php include 'promotions.php' ?>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
+    <h1>truc</h1> <br>
 </body>
 </html>

@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <header>
+<?php include 'db_connect.php'; ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<header>
 	<div class="row headtop">
 		<div class="zone1">
 			<a href="../index.php">
@@ -266,12 +268,13 @@
 			<a class="textligne3" href="">Contact SAV</a>
 		</div>
 	</div>  
-<nav class="menu">
+<nav class="menu main-nav">
             <ul>
                 <li class="link0"><a href="index.php"><svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,255.9976,255.9976" width="48px" height="48px" fill-rule="nonzero"><defs><linearGradient x1="6" y1="41" x2="42" y2="41" gradientUnits="userSpaceOnUse" id="color-1"><stop offset="0" stop-color="#b1d2ff"></stop><stop offset="1" stop-color="#b1d2ff"></stop></linearGradient><linearGradient x1="14.095" y1="10.338" x2="31.385" y2="43.787" gradientUnits="userSpaceOnUse" id="color-2"><stop offset="0" stop-color="#f1f1f1"></stop><stop offset="0.495" stop-color="#f4f4f4"></stop><stop offset="0.946" stop-color="#e8e8e8"></stop><stop offset="1" stop-color="#e8e8e8"></stop></linearGradient><linearGradient x1="24" y1="1.684" x2="24" y2="23.696" gradientUnits="userSpaceOnUse" id="color-3"><stop offset="0" stop-color="#b1d2ff"></stop><stop offset="1" stop-color="#32fe5e"></stop></linearGradient><linearGradient x1="28.05" y1="25.05" x2="35.614" y2="32.614" gradientUnits="userSpaceOnUse" id="color-4"><stop offset="0" stop-color="#b1d2ff"></stop><stop offset="1" stop-color="#b1d2ff"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M42,39h-36v2c0,1.105 0.895,2 2,2h32c1.105,0 2,-0.895 2,-2z" fill="url(#color-1)"></path><path d="M42,39h-36v-19l18,-17l18,17z" fill="url(#color-2)"></path><path d="M13,25h10c0.552,0 1,0.448 1,1v17h-12v-17c0,-0.552 0.448,-1 1,-1z" fill="#0067c8"></path><path d="M24,4c-0.474,0 -0.948,0.168 -1.326,0.503l-5.359,4.811l-11.315,10.686v5.39l18,-15.962l18,15.962v-5.39l-11.315,-10.686l-5.359,-4.811c-0.378,-0.335 -0.852,-0.503 -1.326,-0.503z" fill="#000000" opacity="0.05"></path><path d="M24,3c-0.474,0 -0.948,0.167 -1.326,0.5l-5.359,4.784l-11.315,10.625v5.359l18,-15.871l18,15.871v-5.359l-11.315,-10.625l-5.359,-4.784c-0.378,-0.333 -0.852,-0.5 -1.326,-0.5z" fill="#000000" opacity="0.07"></path><path d="M44.495,19.507l-19.169,-17.004c-0.378,-0.335 -0.852,-0.503 -1.326,-0.503c-0.474,0 -0.948,0.168 -1.326,0.503l-19.169,17.004c-0.42,0.374 -0.449,1.02 -0.064,1.43l1.636,1.745c0.369,0.394 0.984,0.424 1.39,0.067l17.533,-15.321l17.533,15.322c0.405,0.356 1.021,0.327 1.39,-0.067l1.636,-1.745c0.385,-0.411 0.356,-1.057 -0.064,-1.431z" fill="url(#color-3)"></path><path d="M29,25h6c0.552,0 1,0.448 1,1v6c0,0.552 -0.448,1 -1,1h-6c-0.552,0 -1,-0.448 -1,-1v-6c0,-0.552 0.448,-1 1,-1z" fill="url(#color-4)"></path></g></g></svg></a></li>
                 <li class="deroulant link1"><a href="reliure.php">Reliure Thermique <br>Thermorelieur <br>Reliure Rigide</a>
+		<!-- sous-menu 1 - Reliure -->
+				<div class="submenu">
 					<ul class="sous sous1">
-					
 						<table>
 							<tbody>
 								<tr>&nbsp;</tr>
@@ -281,17 +284,21 @@
 									<th></th>
 									<td rowspan="21">
 									<div class="articles-container">
-										<?php foreach ($articles as $article): ?>
-											<div class="article-card">
-												<img src="<?= $article['lien_photo'] ?>" alt="<?= $article['nom_article'] ?>">
-												<h2><?= $article['nom_article'] ?></h2>
-												<p>Prix : <s><?= $article['prix_article'] ?>€</s> <strong><?= $article['prix_promo'] ?>€</strong></p>
-												<!-- <p><?= $article['description_article'] ?></p> -->
-												<button onclick="openModal('caracteristique', <?= $article['id'] ?>)">Voir caractéristiques</button>
-												<button onclick="openModal('video', <?= $article['id'] ?>)">Voir vidéo</button>
-												<button onclick="ajouterAuPanier(<?= $article['id'] ?>)">Ajouter au panier</button>
-											</div>
-										<?php endforeach; ?>
+									<?php 
+										// Sélectionner un article au hasard
+										$article_aleatoire = $articles[array_rand($articles)];
+										?>
+
+										<div class="article-card-pub">
+											<img src="<?= $article_aleatoire['lien_photo'] ?>" alt="<?= $article_aleatoire['nom_article'] ?>">
+											<h2><?= $article_aleatoire['nom_article'] ?></h2>
+											<p>Prix : <s><?= $article_aleatoire['prix_article'] ?>€</s> <strong><?= $article_aleatoire['prix_promo'] ?>€</strong></p>
+											<p><?= $article_aleatoire['description_article'] ?></p>
+											<button class="bouton1" onclick="openModal('caracteristique', <?= $article_aleatoire['id'] ?>)">Voir caractéristiques</button>
+											<button class="bouton2" onclick="openModal('video', <?= $article_aleatoire['id'] ?>)">Voir vidéo</button>
+											<button class="bouton3" onclick="ajouterAuPanier(<?= $article_aleatoire['id'] ?>)">Ajouter au panier</button>
+										</div>
+
         							</div>
 									</td>
 								</tr>
@@ -405,8 +412,12 @@
 						</div>
 						<br>
 					</ul>
-			</li>
+					</div>
+				</li>
+		<!-- sous-menu 2 - Relieuse -->
+			
                 <li class="deroulant link2"><a href="relieuse.php">Relieuse<br>Machine à Relier</a>
+				<div class="submenu">
 				<ul class="sous sous2">
 						<table>
 							<tbody>
@@ -544,8 +555,11 @@
 						<a href="http://">Voir nos promotions sur les perforelieuses</a>
 						</div>
 					</ul>
+				</div>
 			</li>
+			<!-- sous-menu 3 - Plastifier -->
 				<li class="deroulant link3"><a href="plastique.php">Plastifieuse<br>Laminateur<br>Pelliculeuse</a>
+				<div class="submenu">
 				<ul class="sous sous3">
 						<table>
 							<tbody>
@@ -661,8 +675,11 @@
 						<a href="http://">Voir la reliure dos carré collé</a>
 						</div>
 					</ul>
+				</div>
 			</li>
+			<!-- sous-menu 4 - Détruire -->
 				<li class="deroulant link4"><a href="detruire.php">Destructeur<br>de Documents</a>
+				<div class="submenu">
 				<ul class="sous sous4">
 						<table>
 							<tbody>
@@ -778,9 +795,12 @@
 						<a href="http://">Voir la reliure dos carré collé</a>
 						</div>
 					</ul>
+				</div>
 			</li>
+			<!-- sous-menu 5 - Découper -->
 				<li class="deroulant link5"><a href="decoupe.php">Massicot<br>Cisaille<br>Découpe</a>
-				<ul class="sous sous5">
+				<div class="submenu">
+					<ul class="sous sous5">
 						<table>
 							<tbody>
 								<tr>
@@ -895,9 +915,12 @@
 						<a href="http://">Voir la reliure dos carré collé</a>
 						</div>
 					</ul>
+				</div>
 			</li>
+			<!-- sous-menu 6 - Plier -->
 				<li class="deroulant link6"><a href="plier.php">Plieuse<br>Raineuse<br>Micro-Perforation</a>
-				<ul class="sous sous6">
+				<div class="submenu">
+					<ul class="sous sous6">
 						<table>
 							<tbody>
 								<tr>
@@ -1012,9 +1035,12 @@
 						<a href="http://">Voir la reliure dos carré collé</a>
 						</div>
 					</ul>
+				</div>
 			</li>
+			<!-- sous-menu 7 - Marquer -->
 				<li class="deroulant link7"><a href="marquer.php">Marquer - Numéroter<br>Traitement du courrier<br>Imprimante</a>
-				<ul class="sous sous7">
+				<div class="submenu">
+					<ul class="sous sous7">
 						<table>
 							<tbody>
 								<tr>
@@ -1129,9 +1155,12 @@
 						<a href="http://">Voir la reliure dos carré collé</a>
 						</div>
 					</ul>
+				</div>
 			</li>
+			<!-- sous-menu 8 - Autres Matériels -->
 				<li class="deroulant link8"><a href="autre.php">Autres Matériels</a>
-				<ul class="sous sous8">
+				<div class="submenu">
+					<ul class="sous sous8">
 						<table>
 							<tbody>
 								<tr>
@@ -1246,9 +1275,12 @@
 						<a href="http://">Voir la reliure dos carré collé</a>
 						</div>
 					</ul>
+				</div>
 			</li>
+			<!-- sous-menu 9 - Personnalisation -->
 				<li class="deroulant link9"><a href="perso.php">Personnalisation<br>Correspondance<br>Nouveautés</a>
-				<ul class="sous sous9">
+				<div class="submenu">
+					<ul class="sous sous9">
 						<table>
 							<tbody>
 								<tr>
@@ -1363,16 +1395,35 @@
 						<a href="http://">Voir la reliure dos carré collé</a>
 						</div>
 					</ul>
-				</li>
-                
-                    
+				</div>
+				</li>   
                 </li>
-            </ul>
-            
-                
-            
+            </ul>  
         </nav>
     </header>
-    
+	<script>
+    $(document).ready(function() {
+        var iScrollPos = 0;
+        $(window).scroll(function() {
+            var iCurScrollPos = $(this).scrollTop();
+
+            // Vérifie si le scroll est supérieur à 200px
+            if (iCurScrollPos > 200) {
+                if (iCurScrollPos > iScrollPos) {
+                    // Défilement vers le bas
+                    $('header').fadeOut(500);
+                } else {
+                    // Défilement vers le haut
+                    $('header').fadeIn(500);
+                }
+            } else {
+                // Réaffiche le header si on est en haut de la page
+                $('header').fadeIn(500);
+            }
+            iScrollPos = iCurScrollPos;
+        });
+    });
+</script>
+
 </body>
 </html>

@@ -32,6 +32,7 @@ if (!empty($_SESSION['panier'])) {
     <script src="/script.js" defer></script>
 </head>
 <body>
+<?php include 'header.php' ?>
     <header>
         <h1>Votre Panier</h1>
     </header>

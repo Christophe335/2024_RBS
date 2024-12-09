@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php include 'header.php' ?>
     <header>
         <h1>Mon Compte</h1>
     </header>

@@ -47,6 +47,7 @@ $articles = $query->fetchAll(PDO::FETCH_ASSOC);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php include 'header.php' ?>
     <header>
         <h1>Administration des Articles</h1>
     </header>
@@ -74,8 +75,11 @@ $articles = $query->fetchAll(PDO::FETCH_ASSOC);
                 <thead>
                     <tr>
                         <th>ID</th>
+                        <th>Référence</th>
+                        <th>Catégorie</th>
                         <th>Nom</th>
                         <th>Prix</th>
+                        <th>Promo</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -83,8 +87,11 @@ $articles = $query->fetchAll(PDO::FETCH_ASSOC);
                     <?php foreach ($articles as $article): ?>
                         <tr>
                             <td><?= $article['id'] ?></td>
+                            <td><?= $article['reference_article'] ?></td>
+                            <td><?= $article['categorie_article'] ?></td>
                             <td><?= $article['nom_article'] ?></td>
                             <td><?= $article['prix_article'] ?> €</td>
+                            <td><?= $article['prix_promo'] ?> €</td>
                             <td>
                                 <a href="?action=delete&id=<?= $article['id'] ?>">Supprimer</a>
                             </td>
