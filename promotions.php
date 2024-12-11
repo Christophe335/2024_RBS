@@ -18,6 +18,7 @@ $articles = $query->fetchAll(PDO::FETCH_ASSOC);
             
     
     <main>
+        <div class="espace"></div>
         <h1>Articles en Promotion</h1>
         <div class="articles-container">
             <?php foreach ($articles as $article): ?>
