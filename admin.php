@@ -1,3 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_res.css">
+    
+    <title>admin</title>
+</head> 
+<body>
+    <header>
+    <?php include 'header.php' ?>
+    </header>
+
+<div class="espace"></div>
 <?php
 session_start();
 include 'db_connect.php';
@@ -38,16 +54,7 @@ $query = $pdo->query("SELECT * FROM articles");
 $articles = $query->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Administration</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<?php include 'header.php' ?>
+
     <header>
         <h1>Administration des Articles</h1>
     </header>

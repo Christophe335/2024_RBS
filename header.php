@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>header</title>
     <link rel="stylesheet" href="../style.css">
+	<link rel="stylesheet" href="style_res.css">
 </head>
 <body>
 <?php include 'db_connect.php'; ?>
@@ -124,7 +125,7 @@
         <button class="bouton1" onclick="window.location.href='panier.php'">Panier</button>
         <button class="bouton1" onclick="window.location.href='compte.php'">Mon compte</button>
         <button class="bouton1" onclick="window.location.href='admin.php'">Admin</button>
-		
+		<br>largeur écran : <span id="larg"></span>pixels
 		<?php if (!empty($panier_articles)): ?>
 			<div class="panier">
 				<p>Voir vos achats</p>
@@ -180,8 +181,14 @@
 				<p>Votre panier est vide.</p>
 			</div>  
         <?php endif; ?>
-		</div>   
+		</div>  
+		
 	</div>
+	
+	<script>
+		let larg = window.innerWidth;
+		document.getElementById("larg").innerHTML=larg;
+	</script>
 	<div class="prepa">
 		<div class="row bandeau">
 		<!-- security -->
@@ -1250,7 +1257,7 @@
 									<th class="colonne"><a href="http://"></a>Livre Vidéo Peleman</th>
 									<th class="colonne"><a href="http://"></a>Personnalisation de couvertures</th>
 									<th class="colonne"><a href="http://"></a>Intercalaire</th>
-									<td rowspan="14">
+									<td rowspan="13">
 									<div class="pub1 colonne2">
 									<img src="/images/blocnotecontrole.jpg" alt="">
 									<img src="/images/couvperso.jpg" alt="">

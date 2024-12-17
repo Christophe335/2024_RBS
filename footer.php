@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RBS France - footer</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style_res.css">
     <script src="script.js" defer></script>
 </head>
 <body>
