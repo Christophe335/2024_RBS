@@ -5,3 +5,4 @@ function openModal(type, id) {
 function ajouterAuPanier(id) {
     alert("Article " + id + " ajouté au panier.");
 }
+
