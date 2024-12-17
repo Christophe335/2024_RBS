@@ -1,10 +1,3 @@
-<?php
-include 'db_connect.php';
-
-$query = $pdo->query("SELECT * FROM articles WHERE prix_promo IS NOT NULL");
-$articles = $query->fetchAll(PDO::FETCH_ASSOC);
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -12,8 +5,18 @@ $articles = $query->fetchAll(PDO::FETCH_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles en Promotion</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_res.css">
 </head>
 <body>
+
+<?php
+include 'db_connect.php';
+
+$query = $pdo->query("SELECT * FROM articles WHERE prix_promo IS NOT NULL");
+$articles = $query->fetchAll(PDO::FETCH_ASSOC);
+?>
+
+
     
             
     

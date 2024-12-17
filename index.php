@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_res.css">
     
     <title>gestion d'articles</title>
 </head> 
@@ -251,82 +252,93 @@
     <?php include 'footer.php' ?>
     <script>
     document.addEventListener("DOMContentLoaded", () => {
-        // Gestion des slides
-        const slides = document.querySelectorAll('.slide');
-        const dots = document.querySelectorAll('.dot');
-        let currentSlide = 0;
-        let slideInterval;
-
-        // Gestion des sections (visu)
-        const visuElements = document.querySelectorAll('.visu');
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    let currentSlide = 0;
+    let slideInterval;
+    // Gestion des sections (visu)
+    const visuElements = document.querySelectorAll('.visu');
         const prevButton = document.querySelector('.navi.prev');
         const nextButton = document.querySelector('.navi.next');
         let currentVisu = 0;
 
-        // Fonction pour rejouer les animations sur une slide
-        function replayAnimations(slide) {
-            const animatedElements = slide.querySelectorAll('.slideDown, .slideDown2, .slideLeft, .slideRight, .slideUp');
-            animatedElements.forEach(el => {
-                el.style.animation = 'none'; // Supprime l'animation existante
-                void el.offsetWidth; // Forcer un reflow
-                el.style.animation = ''; // Réinitialise l'animation
-            });
-        }
 
-        // Fonction pour afficher une slide spécifique
-        function showSlide(index) {
-            // Retirer la classe active de la slide et du point actuel
-            slides[currentSlide].classList.remove('active');
-            dots[currentSlide].classList.remove('active');
-
-            // Mettre à jour l'index actuel
-            currentSlide = index;
-
-            // Ajouter la classe active à la nouvelle slide et au nouveau point
-            slides[currentSlide].classList.add('active');
-            dots[currentSlide].classList.add('active');
-
-            // Rejouer les animations sur les éléments internes
-            replayAnimations(slides[currentSlide]);
-        }
-
-        // Fonction pour afficher la slide suivante automatiquement
-        function showNextSlide() {
-            const nextSlide = (currentSlide + 1) % slides.length;
-            showSlide(nextSlide);
-        }
-
-        // Fonction pour démarrer l'intervalle de slides
-        function startSlideInterval() {
-            slideInterval = setInterval(showNextSlide, 3500);
-        }
-
-        // Fonction pour arrêter l'intervalle de slides
-        function stopSlideInterval() {
-            clearInterval(slideInterval);
-        }
-
-        // Ajouter des gestionnaires d'événements aux points
-        dots.forEach((dot, index) => {
-            dot.addEventListener('click', () => {
-                showSlide(index);
-            });
+    // Fonction pour rejouer les animations sur une slide
+    function replayAnimations(slide) {
+        const animatedElements = slide.querySelectorAll('.slideDown, .slideDown2, .slideLeft, .slideRight, .slideUp');
+        animatedElements.forEach(el => {
+            el.style.animation = 'none';
+            void el.offsetWidth; 
+            el.style.animation = ''; 
         });
+    }
 
-        // Ajouter des gestionnaires d'événements pour le survol des slides
+    // Réinitialiser toutes les slides
+    function resetSlides() {
         slides.forEach(slide => {
-            slide.addEventListener('mouseenter', stopSlideInterval); // Arrêter l'intervalle
-            slide.addEventListener('mouseleave', startSlideInterval); // Redémarrer l'intervalle
+            slide.classList.remove('active', 'previous');
         });
+    }
 
-        // Initialiser le diaporama
+    // Fonction pour afficher une slide spécifique
+    function showSlide(index) {
+        // Réinitialiser toutes les slides
+        resetSlides();
+
+        // Marquer l'ancienne slide comme "previous"
+        slides[currentSlide].classList.add('previous');
+
+        // Mettre à jour l'index actuel
+        currentSlide = index;
+
+        // Ajouter la classe active à la nouvelle slide
         slides[currentSlide].classList.add('active');
-        dots[currentSlide].classList.add('active');
-        replayAnimations(slides[currentSlide]);
-        startSlideInterval(); // Lancer l'intervalle de slides
 
-        // Fonction pour afficher une section spécifique
-        function showVisu(index) {
+        // Mettre à jour les points (dots)
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[currentSlide].classList.add('active');
+
+        // Rejouer les animations
+        replayAnimations(slides[currentSlide]);
+    }
+
+    // Fonction pour afficher la slide suivante
+    function showNextSlide() {
+        const nextSlide = (currentSlide + 1) % slides.length;
+        showSlide(nextSlide);
+    }
+
+    // Démarrer et arrêter le diaporama
+    function startSlideInterval() {
+        slideInterval = setInterval(showNextSlide, 3500);
+    }
+
+    function stopSlideInterval() {
+        clearInterval(slideInterval);
+    }
+
+    // Gestion des événements pour les points
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+            showSlide(index);
+        });
+    });
+
+    // Arrêter/reprendre le diaporama au survol des slides
+    slides.forEach(slide => {
+        slide.addEventListener('mouseenter', stopSlideInterval);
+        slide.addEventListener('mouseleave', startSlideInterval);
+    });
+
+    // Initialiser le diaporama
+    resetSlides();
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+    replayAnimations(slides[currentSlide]);
+    startSlideInterval();
+
+    // Fonction pour afficher une section spécifique
+    function showVisu(index) {
             // Masquer toutes les sections
             visuElements.forEach((visu, i) => {
                 visu.style.display = i === index ? 'block' : 'none';
@@ -346,7 +358,7 @@
 
         // Initialiser la première section
         showVisu(currentVisu);
-    });
+});
 </script>
 
 </body>
