@@ -1,0 +1,173 @@
+/* PAGE DE STYLE DU RESPONSIVE */
+
+/* MEDIA QUERY format pour écran 24/27 pouces jusqu'à 1920 PX (si le site est conçu pour une très haute résolution) */
+@media screen and (min-width:1920px) {
+}
+
+/* MEDIA QUERY format pour écran 22/24 pouces de 1680 PX à 1919 PX */
+@media screen and (min-width:1680px) and (max-width:1919px) {
+}
+
+/* MEDIA QUERY format pour écran portable de 1600 PX à 1679 PX */
+@media screen and (min-width:1600px) and (max-width:1679px) {
+}
+
+/* MEDIA QUERY format pour portable de 1440 PX à 1599 PX */
+@media screen and (min-width:1440px) and (max-width:1599px) {
+}
+
+/* MEDIA QUERY format pour portable ou écran RTC de 1280 PX à 1439 PX */
+@media screen and (min-width:1280px) and (max-width:1439px) {
+    table {
+        font-size: 10px;
+    }
+     /* acheter une relieuse */
+     .navi.next {
+        left: 150px;
+      }
+}
+
+/* MEDIA QUERY - format pour portable de 1070 PX à 1279 PX */
+@media screen and (min-width:1070px) and (max-width:1279px) {
+    table {
+        font-size: 9px;
+    }
+      .colonne2 {
+        width: 160px;
+      }
+    /* Bandeau navigation */
+    .menu a {
+        font-size: 10px;
+    }
+    /* gallerie */
+    .gallery {
+        width: 1060px;
+      }
+      /* images */
+        .slideImage1 {
+            left: 70%;
+            width: 310px;
+        }
+        .slideImage2 {
+            width: 120px;
+            height: 120px;
+            top: 270px;
+        }
+        .slideImage3 {
+            width: 240px;
+            height: 70px;
+            top: 58px;
+          }
+          .slideImage4 {
+
+            width: 120px;
+            height: 120px;
+            left: 55%;
+            top: 190px;
+          }
+          .slideImage5 {
+            left: 62%;
+            top: 7px;
+          }
+          /* bouton de lien jaune */
+          .SlideLien1 {
+            font-size: 16px;
+          }
+          .SlideLien2 {
+            font-size: 15px;
+          }
+          .placement3 {
+            margin-top: 150px;
+          }
+          .placement5a {
+            margin-left: 75%;
+          }
+          .placement5b {
+            margin-left: 76%;
+          }
+          .placement5c {
+            margin-left: 79%;
+          }
+          /* les textes */
+          .slideTitre1 {
+            font-size: 35px;
+            margin-left: 29%;
+          }
+          .slideSousTitre1 {
+            margin-left: 25%;
+          }
+          .slideSousTitre2 {
+            margin-left: 35%;
+          }
+          .placement1 {
+            margin-left: 38%;
+            margin-top: 24px;
+          }
+
+          .slideTitre2 {
+            margin-top: 48px;
+          }
+         
+          .slideTitre3, .slideTitre4 {
+            font-size: 35px;
+          }
+
+          .slideTitre9 {
+            text-transform: uppercase;
+            font-family: "MPLUSRounded1c", sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: #b0003c;
+            margin-bottom: 25px;
+            margin-left: 44%;
+          }
+          /* acheter une relieuse */
+          .navi.prev {
+            left: 19px;
+            border-radius: 5px;
+          }
+          .navi.next {
+            left: 165px;
+          }
+          .acheter {
+            width: 1060px;
+          }
+          .acheterLeft {
+            margin-top: 10px;
+          }
+          .acheterLeft span {
+            font-size: 35px;
+        }
+        .visu-container {
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            padding: 0 20px;
+        }
+          
+}
+
+/* MEDIA QUERY format pour Ipad Air ou écran 19 pouces RTC de 821 PX à 1069 PX */
+@media screen and (min-width:821px) and (max-width:1069px) {
+}
+
+/* MEDIA QUERY - format pour Ipad Mini de 768 PX à 820 PX */
+@media screen and (min-width:768px) and (max-width:820px) {
+}
+
+/* MEDIA QUERY format pour Surface Duo de 509 PX à 767 PX */
+@media screen and (min-width:509px) and (max-width:767px) {
+}
+
+/* MEDIA QUERY format tous téléphones type plus de 377 PX à 508 PX */
+@media screen and (min-width:377px) and (max-width:508px) {
+}
+
+/* MEDIA QUERY format pour Iphone SE,6,7,8 et X de 375 PX à 376 PX */
+@media screen and (min-width:375px) and (max-width:376px) {
+}
+
+/* MEDIA QUERY - Samsung Galaxy Z Fold 5 et Galaxy S8+ de 344 PX à 374 PX */
+@media screen and (min-width:344px) and (max-width:374px) {
+}
+
