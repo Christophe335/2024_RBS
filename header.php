@@ -242,7 +242,7 @@
 						c-0.06,0-1.61,0-1.61,0s-2.4-0.64-2.38-2.66c0,0,3.19,0,4.41,0c1.26,0,2.99,1.12,3.02,2.9C26.99,16.09,27,16.73,26.99,17.03z"/>
 				</g>
 			</svg>
-			<p class="textligne2">Livraison offerte* <br>dès 200€HT d'achat</p>
+			<p class="textligne2">Livraison offerte* dès 200€HT d'achat</p>
 		 <!-- contact -->
 			<!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 9.03 Build 54939)  -->
 			<svg class="logo" version="1.1" id="Calque_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -273,7 +273,7 @@
                 <li class="link0"><a href="index.php">
 					<svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,255.9976,255.9976" width="48px" height="48px" fill-rule="nonzero">
 						<defs><linearGradient x1="6" y1="41" x2="42" y2="41" gradientUnits="userSpaceOnUse" id="color-1"><stop offset="0" stop-color="#b1d2ff"></stop><stop offset="1" stop-color="#b1d2ff"></stop></linearGradient><linearGradient x1="14.095" y1="10.338" x2="31.385" y2="43.787" gradientUnits="userSpaceOnUse" id="color-2"><stop offset="0" stop-color="#f1f1f1"></stop><stop offset="0.495" stop-color="#f4f4f4"></stop><stop offset="0.946" stop-color="#e8e8e8"></stop><stop offset="1" stop-color="#e8e8e8"></stop></linearGradient><linearGradient x1="24" y1="1.684" x2="24" y2="23.696" gradientUnits="userSpaceOnUse" id="color-3"><stop offset="0" stop-color="#b1d2ff"></stop><stop offset="1" stop-color="#32fe5e"></stop></linearGradient><linearGradient x1="28.05" y1="25.05" x2="35.614" y2="32.614" gradientUnits="userSpaceOnUse" id="color-4"><stop offset="0" stop-color="#b1d2ff"></stop><stop offset="1" stop-color="#b1d2ff"></stop></linearGradient></defs><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M42,39h-36v2c0,1.105 0.895,2 2,2h32c1.105,0 2,-0.895 2,-2z" fill="url(#color-1)"></path><path d="M42,39h-36v-19l18,-17l18,17z" fill="url(#color-2)"></path><path d="M13,25h10c0.552,0 1,0.448 1,1v17h-12v-17c0,-0.552 0.448,-1 1,-1z" fill="#0067c8"></path><path d="M24,4c-0.474,0 -0.948,0.168 -1.326,0.503l-5.359,4.811l-11.315,10.686v5.39l18,-15.962l18,15.962v-5.39l-11.315,-10.686l-5.359,-4.811c-0.378,-0.335 -0.852,-0.503 -1.326,-0.503z" fill="#000000" opacity="0.05"></path><path d="M24,3c-0.474,0 -0.948,0.167 -1.326,0.5l-5.359,4.784l-11.315,10.625v5.359l18,-15.871l18,15.871v-5.359l-11.315,-10.625l-5.359,-4.784c-0.378,-0.333 -0.852,-0.5 -1.326,-0.5z" fill="#000000" opacity="0.07"></path><path d="M44.495,19.507l-19.169,-17.004c-0.378,-0.335 -0.852,-0.503 -1.326,-0.503c-0.474,0 -0.948,0.168 -1.326,0.503l-19.169,17.004c-0.42,0.374 -0.449,1.02 -0.064,1.43l1.636,1.745c0.369,0.394 0.984,0.424 1.39,0.067l17.533,-15.321l17.533,15.322c0.405,0.356 1.021,0.327 1.39,-0.067l1.636,-1.745c0.385,-0.411 0.356,-1.057 -0.064,-1.431z" fill="url(#color-3)"></path><path d="M29,25h6c0.552,0 1,0.448 1,1v6c0,0.552 -0.448,1 -1,1h-6c-0.552,0 -1,-0.448 -1,-1v-6c0,-0.552 0.448,-1 1,-1z" fill="url(#color-4)"></path></g></g></svg></a></li>
-                <li class="deroulant link1"><a href="reliure.php">Reliure Thermique <br>Thermorelieur <br>Reliure Rigide</a>
+                <li class="link1"><a href="reliure.php">Reliure Thermique <br>Thermorelieur <br>Reliure Rigide</a>
 		<!-- sous-menu 1 - Reliure -->
 				<div class="submenu">
 					<ul class="sous sous1">
@@ -282,11 +282,11 @@
 								<tr>&nbsp;</tr>
 								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Ma reliure personnalisée</th>
-									<th></th>
-									<th></th>
+									<th class="colonne"><a href="http://"></a>Ma reliure personnalisée</th>
+									<th class="colonne"></th>
+									<th class="colonne"></th>
 									<td rowspan="21">
-									<div class="pub1">
+									<div class="pub1 colonne2">
 									<img src="/images/3000xt.jpg" alt="">
 									<img src="/images/secura.jpg" alt="">
 									</td>
@@ -300,62 +300,62 @@
 								
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">1.</span> Thermorelieur individuel</td>
-									<td><a href="http://"></a><span class="pointer1">1.</span> Machine à relier par colle thermoplastique</td>
+									<td><a href="http://"></a><em class="pointer1">1.</em> Thermorelieur individuel</td>
+									<td><a href="http://"></a><em class="pointer1">1.</em> Machine à relier par colle thermoplastique</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Couverture pré-encollée</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">2.</span> Thermorelieur multi-relieur</td>
-									<td><a href="http://"></a><span class="pointer1">2.</span> Bordeuse de dos en ruban</td>
+									<td><a href="http://"></a><em class="pointer1">2.</em> Thermorelieur multi-relieur</td>
+									<td><a href="http://"></a><em class="pointer1">2.</em> Bordeuse de dos en ruban</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Couverture d'emboîtage</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">3.</span> Thermorelieur Unibind</td>
+									<td><a href="http://"></a><em class="pointer1">3.</em> Thermorelieur Unibind</td>
 									<td></td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Couverture Unibind</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">4.</span> Thermorelieur Peleman</td>
+									<td><a href="http://"></a><em class="pointer1">4.</em> Thermorelieur Peleman</td>
 									<th><a href="http://"></a>Reliure en couverture rigide</th>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Couverture Peleman</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">5.</span> Thermorelieur Bindomatic</td>
+									<td><a href="http://"></a><em class="pointer1">5.</em> Thermorelieur Bindomatic</td>
 									<th><a href="http://"></a>type book et album photos</th>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Couverture Bindomatic</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer1">1.</span> Concept, Création Books photos</td>
+									<td><a href="http://"></a><em class="pointer1">1.</em> Concept, Création Books photos</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Chemise à oeillets pour agrafer</td>
 								</tr>
 								<tr>
 									<th><a href="http://"></a>Reliure en couverture d'emboîtage</th>
-									<td><a href="http://"></a><span class="pointer1">2.</span> Fabrication de couvertures rigides personnalisées</td>
+									<td><a href="http://"></a><em class="pointer1">2.</em> Fabrication de couvertures rigides personnalisées</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Systèmes Perfect Binder, Secura</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">1.</span> Thermorelieur compact</td>
-									<td><a href="http://"></a><span class="pointer1">3.</span> Emboîtage de couvertures rigides pour albums photos</td>
+									<td><a href="http://"></a><em class="pointer1">1.</em> Thermorelieur compact</td>
+									<td><a href="http://"></a><em class="pointer1">3.</em> Emboîtage de couvertures rigides pour albums photos</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Systèmes à bandes FastBack</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">2.</span> Thermorelieur d'atelier</td>
-									<td><a href="http://"></a><span class="pointer1">3.</span> Collage et contre-collage</td>
+									<td><a href="http://"></a><em class="pointer1">2.</em> Thermorelieur d'atelier</td>
+									<td><a href="http://"></a><em class="pointer1">4.</em> Collage et contre-collage</td>
 									<td class="sous_menu"><a href="http://"></a>Bandes thermocollantes</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">3.</span> Thermorelieur haut rendement</td>
+									<td><a href="http://"></a><em class="pointer1">3.</em> Thermorelieur haut rendement</td>
 									<td></td>
 									<td class="sous_menu"><a href="http://"></a>Encarts thermostabilisés et couvertures</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">4.</span> Thermorelieur PUR</td>
+									<td><a href="http://"></a><em class="pointer1">4.</em> Thermorelieur PUR</td>
 									<th><a href="http://"></a>Fournitures pour album photo</th>
 									<td class="sous_menu"><a href="http://"></a>Accessoires, entretien</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">5.</span> Thermorelieur EVA/PUR</td>
+									<td><a href="http://"></a><em class="pointer1">5.</em> Thermorelieur EVA/PUR</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Perfect Binder (SECURA, ELITE, PUREVA)</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Encollage à froid</td>
 								</tr>
@@ -370,7 +370,7 @@
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Colle PUR</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer1">1.</span> Thermorelieur : Fastback et Planax</td>
+									<td><a href="http://"></a><em class="pointer1">1.</em> Thermorelieur : Fastback et Planax</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Booxter</td>
 									<td><a href="http://"></a><span class="pointer1">&#10003;</span> Produits de nettoyage</td>
 								</tr>
@@ -405,45 +405,45 @@
 					</div>
 				</li>
 		<!-- sous-menu 2 - Relieuse -->
-                <li class="deroulant link2"><a href="relieuse.php">Relieuse<br>Machine à Relier</a>
+                <li class="link2"><a href="relieuse.php">Relieuse<br>Machine à Relier</a>
 				<div class="submenu">
 					<ul class="sous sous2">
 						<table>
 							<tbody>
 								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Reliure anneau plastique</th>
-									<th><a href="http://"></a>Reliure calendrier</th>
-									<th><a href="http://"></a>Reliure notariale</th>
+									<th class="colonne"><a href="http://"></a>Reliure anneau plastique</th>
+									<th class="colonne"><a href="http://"></a>Reliure calendrier</th>
+									<th class="colonne"><a href="http://"></a>Reliure notariale</th>
 									<td rowspan="21">
-									<div class="pub1">
+									<div class="pub1 colonne2">
 									<img src="/images/relieuse-professionnelle-format-a3.jpg" alt="">
 									<img src="/images/perforelieur-OD4012-HD8000.jpg" alt="">
 									</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Relieuse manuelle</td>
-									<td><a href="http://"></a><span class="pointer2">1.</span> La gamme de machine à relier</td>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Relieuse pour reliure par bandes scéllées</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Relieuse manuelle</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> La gamme de machine à relier</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Relieuse pour reliure par bandes scéllées</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">2.</span> Relieuse électrique</td>
-									<td><a href="http://"></a><span class="pointer2">2.</span> Perforelieur professionnel A3 pour calendrier</td>
+									<td><a href="http://"></a><em class="pointer2">2.</em> Relieuse électrique</td>
+									<td><a href="http://"></a><em class="pointer2">2.</em> Perforelieur professionnel A3 pour calendrier</td>
 									<td></td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">3.</span> Relieuse professionnelle de bureau semi-électrique</td>
+									<td><a href="http://"></a><em class="pointer2">3.</em> Relieuse professionnelle de bureau semi-électrique</td>
 									<td></td>
 									<th><a href="http://"></a>Reliure clickbind</th>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">4.</span> Relieuse professionnelle de bureau tout-électrique</td>
+									<td><a href="http://"></a><em class="pointer2">4.</em> Relieuse professionnelle de bureau tout-électrique</td>
 									<th><a href="http://"></a>Reliure WIRE'O</th>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Perforelieuse Ibiclick</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Perforelieuse Ibiclick</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Perforelieuse 2:1</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Perforelieuse 2:1</td>
 									<td></td>
 								</tr>
 								<tr>
@@ -452,47 +452,47 @@
 									<th><a href=""></a>Reliure à dos agrafe</th>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Relieuse manuelle</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Relieuse manuelle</td>
 									<th><a href=""></a>Reliure multifonction</th>
 									<td></td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">2.</span> Relieuse électrique</td>
-									<td><a href="http://"></a><span class="pointer2">1.</span> La gamme de machine à relier</td>
+									<td><a href="http://"></a><em class="pointer2">2.</em> Relieuse électrique</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> La gamme de machine à relier</td>
 									<th><a href=""></a>Reliure channel</th>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">3.</span> Relieuse professionnelle de bureau semi-électrique</td>
-									<td><a href="http://"></a><span class="pointer2">2.</span> Perforateur à outils interchangeables</td>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Appareil de reliure par serrage</td>
+									<td><a href="http://"></a><em class="pointer2">3.</em> Relieuse professionnelle de bureau semi-électrique</td>
+									<td><a href="http://"></a><em class="pointer2">2.</em> Perforateur à outils interchangeables</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Appareil de reliure par serrage</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">4.</span> Relieuse professionnelle de bureau tout-électrique</td>
-									<td><a href="http://"></a><span class="pointer2">3.</span> Perforateur automatique TORNADO AUTOPUNCH</td>
+									<td><a href="http://"></a><em class="pointer2">4.</em> Relieuse professionnelle de bureau tout-électrique</td>
+									<td><a href="http://"></a><em class="pointer2">3.</em> Perforateur automatique TORNADO AUTOPUNCH</td>
 									<td></td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">5.</span> Perforelieur professionnel A3</td>
-									<td><a href="http://"></a><span class="pointer2">4.</span> Relieur professionnel</td>
+									<td><a href="http://"></a><em class="pointer2">5.</em> Perforelieur professionnel A3</td>
+									<td><a href="http://"></a><em class="pointer2">4.</em> Relieur professionnel</td>
 									<th><a href=""></a>Reliure par disque</th>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">6.</span> Perforeuse industrielle</td>
-									<td><a href="http://"></a><span class="pointer2">5.</span> Perforeuse industrielle</td>
+									<td><a href="http://"></a><em class="pointer2">6.</em> Perforeuse industrielle</td>
+									<td><a href="http://"></a><em class="pointer2">5.</em> Perforeuse industrielle</td>
 									<td></td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">7.</span> Relieuse industrielle</td>
+									<td><a href="http://"></a><em class="pointer2">7.</em> Relieuse industrielle</td>
 									<td></td>
 									<th><a href=""></a>Consommable pour reliure</th>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">8.</span> Ligne de production</td>
+									<td><a href="http://"></a><em class="pointer2">8.</em> Ligne de production</td>
 									<th><a href=""></a>Reliure par oeillets</th>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Anneaux plastiques</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">9.</span> Accessoire pour anneau métallique</td>
+									<td><a href="http://"></a><em class="pointer2">9.</em> Accessoire pour anneau métallique</td>
 									<td></td>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Anneaux métalliques</td>
 								</tr>
@@ -503,31 +503,31 @@
 								</tr>
 								<tr>
 									<th><a href=""></a>Reliure spirale plastique et métallique</th>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Relieuse à Peignes Velobind 4 picots</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Relieuse à Peignes Velobind 4 picots</td>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Peignes soudés</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">1.</span> Relieuse manuelle et électrique</td>
-									<td><a href="http://"></a><span class="pointer2">2.</span> Relieuse à Peignes Surebind 10 picots</td>
+									<td><a href="http://"></a><em class="pointer2">1.</em> Relieuse manuelle et électrique</td>
+									<td><a href="http://"></a><em class="pointer2">2.</em> Relieuse à Peignes Surebind 10 picots</td>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Reliure notariale - Bandes scellées</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">2.</span> Relieuse professionnelle de bureau</td>
-									<td><a href="http://"></a><span class="pointer2">3.</span> Relieuse à Peignes Gestabind 12 picots</td>
+									<td><a href="http://"></a><em class="pointer2">2.</em> Relieuse professionnelle de bureau</td>
+									<td><a href="http://"></a><em class="pointer2">3.</em> Relieuse à Peignes Gestabind 12 picots</td>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Œillets pour la reliure</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">3.</span> Relieuse professionnelle A3</td>
+									<td><a href="http://"></a><em class="pointer2">3.</em> Relieuse professionnelle A3</td>
 									<td></td>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Reliure clickbind</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">4.</span> Système de coupe pour spirale</td>
+									<td><a href="http://"></a><em class="pointer2">4.</em> Système de coupe pour spirale</td>
 									<td></td>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Couvertures de reliure et transparents</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer2">5.</span> Perforeuse et Relieuse industrielle</td>
+									<td><a href="http://"></a><em class="pointer2">5.</em> Perforeuse et Relieuse industrielle</td>
 									<td></td>
 									<td><a href="http://"></a><span class="pointer2">&#10003;</span> Crochets</td>
 								</tr>
@@ -552,61 +552,65 @@
 					</ul>
 				</div>
 			</li>
-			<!-- sous-menu 3 - Plastifier -->
-				<li class="deroulant link3"><a href="plastique.php">Plastifieuse<br>Laminateur<br>Pelliculeuse</a>
+		<!-- sous-menu 3 - Plastifier -->
+				<li class="link3"><a href="plastique.php">Plastifieuse<br>Laminateur<br>Pelliculeuse</a>
 				<div class="submenu">
 					<ul class="sous sous3">
 						<table>
 							<tbody>
 								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Plastifieuse par pochette</th>
-									<th><a href="http://"></a>Plastifieuse en continu par bobines</th>
-									<th><a href="http://"></a>Pelliculeuse - vernisseuse</th>
+									<th class="colonne"><a href="http://"></a>Plastifieuse par pochette</th>
+									<th class="colonne"><a href="http://"></a>Plastifieuse en continu par bobines</th>
+									<th class="colonne"><a href="http://"></a>Pelliculeuse - vernisseuse</th>							
+									<td rowspan="15">
+									<div class="pub1 colonne2">
+									<img src="/images/plastifieuse-automatique-revo-office-lami-corporation.jpg" alt="">
+									</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer3">1.</span> Plastifieuse A4</td>
-									<td><a href="http://"></a><span class="pointer3">1.</span> Plastifieuse laize de 300 à 1100mm</td>
+									<td><a href="http://"></a><em class="pointer3">1.</em> Plastifieuse A4</td>
+									<td><a href="http://"></a><em class="pointer3">1.</em> Plastifieuse laize de 300 à 1100mm</td>
 									<td><a href="http://"></a><span class="pointer3">&#10003;</span> Petite série</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer3">2.</span> Plastifieuse A3</td>
-									<td><a href="http://"></a><span class="pointer3">2.</span> Plastifieuse automatique</td>
+									<td><a href="http://"></a><em class="pointer3">2.</em> Plastifieuse A3</td>
+									<td><a href="http://"></a><em class="pointer3">2.</em> Plastifieuse automatique</td>
 									<td><a href="http://"></a><span class="pointer3">&#10003;</span> Moyenne série</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer3">3.</span> Plastifieuse A2 et A1</td>
+									<td><a href="http://"></a><em class="pointer3">3.</em> Plastifieuse A2 et A1</td>
 									<td></td>
 									<td><a href="http://"></a><span class="pointer3">&#10003;</span> Grande série haut rendement</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer3">4.</span> Plastifieuse de passeport</td>
+									<td><a href="http://"></a><em class="pointer3">4.</em> Plastifieuse de passeport</td>
 									<th><a href="http://"></a>Laminateur - plastifieuse grands formats</th>
 									<td><a href="http://"></a><span class="pointer3">&#10003;</span> Vernisseuse</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer3">1.</span> Laminateur manuel pour montage</td>
+									<td><a href="http://"></a><em class="pointer3">1.</em> Laminateur manuel pour montage</td>
 									<td></td>
 								</tr>
 								<tr>
 									<th><a href="http://"></a>Pochette de plastification</th>
-									<td><a href="http://"></a><span class="pointer3">2.</span> Laminateur professionnel à froid</td>
+									<td><a href="http://"></a><em class="pointer3">2.</em> Laminateur professionnel à froid</td>
 									<th><a href="http://"></a>Rouleau de film de pelliculage</th>
 								</tr>
 								<tr>
 									<td><a href="http://"></a><span class="pointer3">&#10003;</span> Pochette de plastification A4</td>
-									<td><a href="http://"></a><span class="pointer3">3.</span> Laminateur rouleau supérieur chauffant</td>
+									<td><a href="http://"></a><em class="pointer3">3.</em> Laminateur rouleau supérieur chauffant</td>
 									<td></td>
 								</tr>
 								<tr>
 									<td><a href="http://"></a><span class="pointer3">&#10003;</span> Pochette de plastification A3</td>
-									<td><a href="http://"></a><span class="pointer3">4.</span> Laminateur professionnel à froid et à chaud</td>
+									<td><a href="http://"></a><em class="pointer3">4.</em> Laminateur professionnel à froid et à chaud</td>
 									<th><a href="http://"></a>Vernis sélectif, dorure pour</th>
 								</tr>
 								<tr>
 									<td><a href="http://"></a><span class="pointer3">&#10003;</span> Pochette de plastification A1, A2</td>
-									<td><a href="http://"></a><span class="pointer3">5.</span> Laminateur à plat</td>
+									<td><a href="http://"></a><em class="pointer3">5.</em> Laminateur à plat</td>
 									<th><a href="http://"></a>vernisseuse et pelliculeuse</th>
 								</tr>
 								<tr>
@@ -646,19 +650,23 @@
 					</ul>
 				</div>
 			</li>
-			<!-- sous-menu 4 - Détruire -->
-				<li class="deroulant link4"><a href="detruire.php">Destructeur<br>de Documents</a>
+		<!-- sous-menu 4 - Détruire -->
+				<li class="link4"><a href="detruire.php">Destructeur<br>de Documents</a>
 				<div class="submenu">
 					<ul class="sous sous4">
 						<table>
 							<tbody>
+								<tr>&nbsp;</tr>
 								<tr>
-									&nbsp;
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Destructeurs de documents</th>
-									<th><a href="http://"></a>Niveau de sécurité</th>
-									<th><a href="http://"></a>Sacs plastiques jetables</th>
+									<th class="colonne"><a href="http://"></a>Destructeurs de documents</th>
+									<th class="colonne"><a href="http://"></a>Niveau de sécurité</th>
+									<th class="colonne"><a href="http://"></a>Sacs plastiques jetables</th>
+									<td rowspan="21">
+									<div class="pub1 colonne2">
+									<img src="/images/destructeurs-automatiques.jpg" alt="">
+									</td>
+									
+
 								</tr>
 								<tr>
 									<td><a href="http://"></a><span class="pointer4">&#10003;</span> Destructeur personnel</td>
@@ -700,12 +708,12 @@
 									<td><a href="http://"></a><span class="pointer4">&#10003;</span> Containers carton</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer4">1.</span> Coupe croisée</td>
+									<td><a href="http://"></a><em class="pointer4">1.</em> Coupe croisée</td>
 									<td></td>
 									<td><a href="http://"></a><span class="pointer4">&#10003;</span> Huile de lubrification</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer4">2.</span> Coupe fibres</td>
+									<td><a href="http://"></a><em class="pointer4">2.</em> Coupe fibres</td>
 									<th><a href="http://"></a>Destructeur de passeports</th>
 									<td><a href="http://"></a><span class="pointer4">&#10003;</span> Autres fournitures</td>
 								</tr>
@@ -750,17 +758,22 @@
 					</ul>
 				</div>
 			</li>
-			<!-- sous-menu 5 - Découper -->
-				<li class="deroulant link5"><a href="decoupe.php">Massicot<br>Cisaille<br>Découpe</a>
+		<!-- sous-menu 5 - Découper -->
+				<li class="link5"><a href="decoupe.php">Massicot<br>Cisaille<br>Découpe</a>
 				<div class="submenu">
 					<ul class="sous sous5">
 						<table>
 							<tbody>
 								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Massicot</th>
-									<th><a href="http://"></a>Découpe</th>
-									<th><a href="http://"></a>Consommable</th>
+									<th class="colonne"><a href="http://"></a>Massicot</th>
+									<th class="colonne"><a href="http://"></a>Découpe</th>
+									<th class="colonne"><a href="http://"></a>Consommable</th>
+									<td rowspan="21">
+									<div class="pub1 colonne2">
+									<img src="/images/ideal4305.jpg" alt="">
+									<img src="/images/autres-types-de-coupe.jpg" alt="">
+									</td>
 								</tr>
 								<tr>
 									<td><a href="http://"></a><span class="pointer5">&#10003;</span> Massicot manuel</td>
@@ -870,483 +883,450 @@
 					</ul>
 				</div>
 			</li>
-			<!-- sous-menu 6 - Plier -->
-				<li class="deroulant link6"><a href="plier.php">Plieuse<br>Raineuse<br>Micro-Perforation</a>
+		<!-- sous-menu 6 - Plier -->
+				<li class="link6"><a href="plier.php">Plieuse<br>Raineuse<br>Micro-Perforation</a>
 				<div class="submenu">
 					<ul class="sous sous6">
 						<table>
 							<tbody>
+								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Ma reliure personnalisée</th>
-									<th></th>
-									<th></th>
+									<th class="colonne"><a href="http://"></a>Plieuse</th>
+									<th class="colonne"><a href="http://"></a>Raineuse</th>
+									<th class="colonne"><a href="http://"></a>Microperforation</th>
+									<td rowspan="11">
+									<div class="pub2 colonne2">
+									<img src="/images/autoplisv1.jpg" alt="">
+									</td>
 								</tr>
 								<tr>
-									<th><a href="http://"></a>Reliure en couverture pré-encollée</th>
-									<th><a href="http://"></a>Reliure par encollage à froid</th>
-									<th><a href="http://"></a>Consommable pour reliure</th>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Plieuse à friction</td>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Raineuse manuelle</td>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Equipement Petite et Moyenne Série</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur individuel</td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Machine à relier par colle thermoplastique</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture pré-encollée</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur multi-relieur</td>
-									<td><a href="http://"></a><span class="pointer">2.</span> Bordeuse de dos en ruban</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture d'emboîtage</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur Unibind</td>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Unibind</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur Peleman</td>
-									<th><a href="http://"></a>Reliure en couverture rigide</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Peleman</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur Bindomatic</td>
-									<th><a href="http://"></a>type book et album photos</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Bindomatic</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Concept, Création Books photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Chemise à oeillets pour agrafer</td>
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Reliure en couverture d'emboîtage</th>
-									<td><a href="http://"></a><span class="pointer">2.</span> Fabrication de couvertures rigides personnalisées</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes Perfect Binder, Secura</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur compact</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Emboîtage de couvertures rigides pour albums photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes à bandes FastBack</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur d'atelier</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Collage et contre-collage</td>
-									<td class="sous_menu"><a href="http://"></a>Bandes thermocollantes</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur haut rendement</td>
-									<td></td>
-									<td class="sous_menu"><a href="http://"></a>Encarts thermostabilisés et couvertures</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur PUR</td>
-									<th><a href="http://"></a>Fournitures pour album photo</th>
-									<td class="sous_menu"><a href="http://"></a>Accessoires, entretien</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur EVA/PUR</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Perfect Binder (SECURA, ELITE, PUREVA)</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Encollage à froid</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Fotomount</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle</td>
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Reliure par bande thermo-collante</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Casematic</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle PUR</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur : Fastback et Planax</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Booxter</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Produits de nettoyage</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Case Express</td>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Plieuse succion</td>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Raineuse électrique</td>
 									<td></td>
 								</tr>
 								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 350</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 650</td>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Plieuse de plan</td>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Raineuse semi-automatique</td>
 									<td></td>
 								</tr>
 								<tr>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Plieuse raineuse</td>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Raineuse automatique à succion</td>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couvertures clipsées, Book photo sans machine</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Plieuse agrafeuse</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Plieuse inséreuse de courrier</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>&nbsp;</tr>
+								<tr>
+									<th><a href="http://"></a>Consommable pour mise sous pli</th>
+									<td></td>
+									<td></td>
+									
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Enveloppes mécanisables</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer6">&#10003;</span> Pièces d'entretien</td>
+									<td></td>
 									<td></td>
 								</tr>
 							</tbody>
 						</table>
 						<div class="row basmenu">
-						<a href="http://">Voir toutes les reliures thermiques - thermorelieurs - reliures rigides</a>&emsp;&emsp;
-						<a href="http://">Voir la reliure dos carré collé</a>
+						<a href="http://">Voir toutes les machines de mise sous pli - </a>&nbsp;
+						<a href="http://">Voir toutes les plieuses - </a>&nbsp;
+						<a href="http://">Voir toutes les raineuses</a>
 						</div>
+						<br>
 					</ul>
 				</div>
 			</li>
-			<!-- sous-menu 7 - Marquer -->
-				<li class="deroulant link7"><a href="marquer.php">Marquer - Numéroter<br>Traitement du courrier<br>Imprimante</a>
+		<!-- sous-menu 7 - Marquer -->
+				<li class="link7"><a href="marquer.php">Marquer - Numéroter<br>Traitement du courrier<br>Imprimante</a>
 				<div class="submenu">
 					<ul class="sous sous7">
 						<table>
 							<tbody>
+								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Ma reliure personnalisée</th>
-									<th></th>
-									<th></th>
+									<th class="colonne"><a href="http://"></a>Marquage par perforation</th>
+									<th class="colonne"><a href="http://"></a>Imprimante</th>
+									<th class="colonne"><a href="http://"></a>Traitement du courrier</th>
+									<td rowspan="21">
+									<div class="pub1 colonne2">
+									<img src="/images/numeri-press.jpg" alt="">
+									<img src="/images/primacy.jpg" alt="">
+									</td>
 								</tr>
 								<tr>
-									<th><a href="http://"></a>Reliure en couverture pré-encollée</th>
-									<th><a href="http://"></a>Reliure par encollage à froid</th>
-									<th><a href="http://"></a>Consommable pour reliure</th>
+									<th><a href="http://"></a>à aiguilles</th>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Imprimante grands formats</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Mise sous pli - Routage</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur individuel</td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Machine à relier par colle thermoplastique</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture pré-encollée</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marquage de texte</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Imprimante de cartes</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Ouvre-Lettres</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur multi-relieur</td>
-									<td><a href="http://"></a><span class="pointer">2.</span> Bordeuse de dos en ruban</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture d'emboîtage</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marquage de date</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Imprimante d'étiquettes</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Colleuse - Etiqueteuse d'enveloppes</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur Unibind</td>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Unibind</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marquage de numéro</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Imprimante de sublimation</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Compteuse d'enveloppes</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur Peleman</td>
-									<th><a href="http://"></a>Reliure en couverture rigide</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Peleman</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur Bindomatic</td>
-									<th><a href="http://"></a>type book et album photos</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Bindomatic</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Concept, Création Books photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Chemise à oeillets pour agrafer</td>
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Reliure en couverture d'emboîtage</th>
-									<td><a href="http://"></a><span class="pointer">2.</span> Fabrication de couvertures rigides personnalisées</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes Perfect Binder, Secura</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur compact</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Emboîtage de couvertures rigides pour albums photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes à bandes FastBack</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur d'atelier</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Collage et contre-collage</td>
-									<td class="sous_menu"><a href="http://"></a>Bandes thermocollantes</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur haut rendement</td>
-									<td></td>
-									<td class="sous_menu"><a href="http://"></a>Encarts thermostabilisés et couvertures</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur PUR</td>
-									<th><a href="http://"></a>Fournitures pour album photo</th>
-									<td class="sous_menu"><a href="http://"></a>Accessoires, entretien</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur EVA/PUR</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Perfect Binder (SECURA, ELITE, PUREVA)</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Encollage à froid</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marquage : texte, date ou numéro</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Imprimante photo automatique</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Imprimante d’adressage</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Fotomount</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle</td>
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Reliure par bande thermo-collante</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Casematic</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle PUR</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur : Fastback et Planax</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Booxter</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Produits de nettoyage</td>
-								</tr>
-								<tr>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Dorure à chaud numérique</td>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Case Express</td>
+								</tr>
+								<tr>
+									<th><a href="http://"></a>Marquage par poinçon</th>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Tablette signature</td>
+									<th><a href="http://"></a>Traitement argent</th>
+								</tr>
+								<tr>
+									<th><a href="http://"></a>et par timbre à sec</th>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Duplicopieur</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Protecteur de chèques</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marquage par poinçon</td>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Machine à endosser et signer</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marquage par timbre à sec</td>
+									<th><a href="http://"></a>Numérisation</th>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Compteuse/Trieuse billets et pièces</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Numérotage plaque métallique par</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Scanner manuel – Lecteur code barres</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Machine à signer</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a>&emsp; emboutissage chiffre et lettre</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Scanner grands formats</td>
 									<td></td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 350</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Scanner grands formats Haute définition</td>
+									<th><a href="http://"></a>Consommable</th>
+								</tr>
+								<tr>
+									<th><a href="http://"></a>Marquage par encrage</th>
 									<td></td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Enveloppes pour mise sous pli automatique</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marqueur - Horodateur - Numeroteur</td>
+									<th><a href="http://"></a>Communication par l'objet</th>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Pièces pour mise sous pli automatique</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Numéroteur automatique</td>
+									<th><a href="http://"></a>publicitaire</th>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Imprimante et marquage</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Marquage électronique mobile</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Presse T-shirt Textile</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Pour imprimante à cartes</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 650</td>
-									<td></td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Presse Textile</td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Pour imprimante d'étiquettes</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couvertures clipsées, Book photo sans machine</td>
 									<td></td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Pour imprimante de sublimation</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Pour imprimante photo automatique</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer7">&#10003;</span> Pour dorure à chaud numérique</td>
 								</tr>
 							</tbody>
 						</table>
 						<div class="row basmenu">
-						<a href="http://">Voir toutes les reliures thermiques - thermorelieurs - reliures rigides</a>&emsp;&emsp;
-						<a href="http://">Voir la reliure dos carré collé</a>
+						<a href="http://">Voir tous les marqueurs par perforation à aiguilles - </a>&nbsp;
+						<a href="http://">Voir tous les marqueurs par poinçons et timbre à sec - </a>&nbsp;
+						<a href="http://">Voir tous les marqueurs par encrage - </a>&nbsp;
+						<a href="http://">Voir toutes les imprimantes</a>
 						</div>
+						<br>
 					</ul>
 				</div>
 			</li>
-			<!-- sous-menu 8 - Autres Matériels -->
-				<li class="deroulant link8"><a href="autre.php">Autres Matériels</a>
+		<!-- sous-menu 8 - Autres Matériels -->
+				<li class="link8"><a href="autre.php">Autres Matériels</a>
 				<div class="submenu">
 					<ul class="sous sous8">
 						<table>
 							<tbody>
+								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Ma reliure personnalisée</th>
-									<th></th>
-									<th></th>
+									<th class="colonne"><a href="http://"></a>Agraphage</th>
+									<th class="colonne"><a href="http://"></a>Assemblage et finition</th>
+									<th class="colonne"><a href="http://"></a>Emballage</th>
+									<td rowspan="21">
+									<div class="pub1 colonne2">
+									<img src="/images/top-vente-agrafeuse-plieuse-u-booklet.jpg" alt="">
+									<img src="/images/sl-4-mvre.jpg" alt="">
+									</td>
 								</tr>
 								<tr>
-									<th><a href="http://"></a>Reliure en couverture pré-encollée</th>
-									<th><a href="http://"></a>Reliure par encollage à froid</th>
-									<th><a href="http://"></a>Consommable pour reliure</th>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Agrafeuse manuelle</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Réalisation automatique de brochures</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Soudeuse pour sachet plastique</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur individuel</td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Machine à relier par colle thermoplastique</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture pré-encollée</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Agrafeuse électrique</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Margeur Assemblage</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Soudeuse médicale</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur multi-relieur</td>
-									<td><a href="http://"></a><span class="pointer">2.</span> Bordeuse de dos en ruban</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture d'emboîtage</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Agrafeuse mécanique professionnelle</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Assembleuse</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Fermeture des sacs en continu avec impression</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur Unibind</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Agrafeuse automatique professionnelle</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Module de rainage</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Filmeuse à cloche</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Agrafeuse pneumatique carton</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Module d'agrafage - pliage de papier</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Filmeuse avec rétractation</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Piqueuse</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Module de massicotage</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Soudeuse pour mise sous film rétractable</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Agrafeuse - Plieuse</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Module de finition dos carré</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Soudeuse et filmeuse alimentaire avec rétractation</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Dégrafeur électrique</td>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Unibind</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur Peleman</td>
-									<th><a href="http://"></a>Reliure en couverture rigide</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Peleman</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur Bindomatic</td>
-									<th><a href="http://"></a>type book et album photos</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Bindomatic</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Concept, Création Books photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Chemise à oeillets pour agrafer</td>
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Reliure en couverture d'emboîtage</th>
-									<td><a href="http://"></a><span class="pointer">2.</span> Fabrication de couvertures rigides personnalisées</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes Perfect Binder, Secura</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur compact</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Emboîtage de couvertures rigides pour albums photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes à bandes FastBack</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur d'atelier</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Collage et contre-collage</td>
-									<td class="sous_menu"><a href="http://"></a>Bandes thermocollantes</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur haut rendement</td>
-									<td></td>
-									<td class="sous_menu"><a href="http://"></a>Encarts thermostabilisés et couvertures</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur PUR</td>
-									<th><a href="http://"></a>Fournitures pour album photo</th>
-									<td class="sous_menu"><a href="http://"></a>Accessoires, entretien</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur EVA/PUR</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Perfect Binder (SECURA, ELITE, PUREVA)</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Encollage à froid</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Filmeuse automatique</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Fotomount</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle</td>
+									<th><a href="http://"></a>Perforateur - Foreuse</th>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Banderoleuse</td>
 								</tr>
 								<tr>
-									<th><a href="http://"></a>Reliure par bande thermo-collante</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Casematic</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle PUR</td>
+									<th><a href="http://"></a>Taquage</th>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Foreuse de papier</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Cercleuse</td>
 								</tr>
 								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur : Fastback et Planax</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Booxter</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Produits de nettoyage</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Case Express</td>
-									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Taqueuse formats A4>A2</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Perforateur manuel 1-2-4 trous</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Matelasseur de carton</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 350</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Perforateur électrique 1-2-4 trous</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Contre Colleuse et Formeuse de boite</td>
+								</tr>
+								<tr>
+									<th><a href="http://"></a>Traitement de l’air</th>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Perforatrice de coins</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Presse à balles</td>
+								</tr>
+								<tr>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Purificateurs d’air</td>
+									<td></td>
 									<td></td>
 								</tr>
 								<tr>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 650</td>
-									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Ventilateurs, climatisations</td>
+									<th><a href="http://"></a>Autres équipements</th>
+									<th><a href="http://"></a>Consommables</th>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couvertures clipsées, Book photo sans machine</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Margeur à succion</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Agrafes</td>
+								</tr>
+								<tr>
 									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Compteuse de feuilles</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Bobines de fil pour piqueuse</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Oeilleteuse manuelle et électrique</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Forets accessoires et fournitures</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Presse à oeillets pneumatique</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Oeillets et Accessoires</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Chalumeau Leister - Bâches</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Film rétractable</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Soudeuse de bâche</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Consommables pour banderoleuse</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Station de Travail</td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Consommables pour cercleuse</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer8">&#10003;</span> Filtres pour purificateur d'air</td>
 								</tr>
 							</tbody>
 						</table>
 						<div class="row basmenu">
-						<a href="http://">Voir toutes les reliures thermiques - thermorelieurs - reliures rigides</a>&emsp;&emsp;
-						<a href="http://">Voir la reliure dos carré collé</a>
+						<a href="http://">Voir les agrafeuses - </a>&nbsp;
+						<a href="http://">Voir les ouvres-lettres - </a>&nbsp;
+						<a href="http://">taqueuses - </a>&nbsp;
+						<a href="http://">Voir le matériel pour la finition - </a>&nbsp;
+						<a href="http://">Voir les compteuses - </a>&nbsp;
+						<a href="http://">oeilleteuses - </a>&nbsp;
+						<a href="http://">perforeuses - </a>&nbsp;
+						<a href="http://">Voir le matériel d'emballage</a>
 						</div>
+						<br>
 					</ul>
 				</div>
 			</li>
-			<!-- sous-menu 9 - Personnalisation -->
-				<li class="deroulant link9"><a href="perso.php">Personnalisation<br>Correspondance<br>Nouveautés</a>
+		<!-- sous-menu 9 - Personnalisation -->
+				<li class="link9"><a href="perso.php">Personnalisation<br>Correspondance<br>Nouveautés</a>
 				<div class="submenu">
 					<ul class="sous sous9">
 						<table>
 							<tbody>
+								<tr>&nbsp;</tr>
 								<tr>
-									<th><a href="http://"></a>Ma reliure personnalisée</th>
-									<th></th>
-									<th></th>
+									<th class="colonne"><a href="http://"></a>Livre Vidéo Peleman</th>
+									<th class="colonne"><a href="http://"></a>Personnalisation de couvertures</th>
+									<th class="colonne"><a href="http://"></a>Intercalaire</th>
+									<td rowspan="14">
+									<div class="pub1 colonne2">
+									<img src="/images/blocnotecontrole.jpg" alt="">
+									<img src="/images/couvperso.jpg" alt="">
+									</td>
 								</tr>
 								<tr>
-									<th><a href="http://"></a>Reliure en couverture pré-encollée</th>
-									<th><a href="http://"></a>Reliure par encollage à froid</th>
-									<th><a href="http://"></a>Consommable pour reliure</th>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur individuel</td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Machine à relier par colle thermoplastique</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture pré-encollée</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur multi-relieur</td>
-									<td><a href="http://"></a><span class="pointer">2.</span> Bordeuse de dos en ruban</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture d'emboîtage</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur Unibind</td>
-									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Unibind</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur Peleman</td>
-									<th><a href="http://"></a>Reliure en couverture rigide</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Peleman</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur Bindomatic</td>
-									<th><a href="http://"></a>type book et album photos</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couverture Bindomatic</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Livre Vidéo</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Couverture préencollée</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Intercalaires de Classement Comptable</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">1.</span> Concept, Création Books photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Chemise à oeillets pour agrafer</td>
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Reliure en couverture d'emboîtage</th>
-									<td><a href="http://"></a><span class="pointer">2.</span> Fabrication de couvertures rigides personnalisées</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes Perfect Binder, Secura</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur compact</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Emboîtage de couvertures rigides pour albums photos</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Systèmes à bandes FastBack</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">2.</span> Thermorelieur d'atelier</td>
-									<td><a href="http://"></a><span class="pointer">3.</span> Collage et contre-collage</td>
-									<td class="sous_menu"><a href="http://"></a>Bandes thermocollantes</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">3.</span> Thermorelieur haut rendement</td>
-									<td></td>
-									<td class="sous_menu"><a href="http://"></a>Encarts thermostabilisés et couvertures</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">4.</span> Thermorelieur PUR</td>
-									<th><a href="http://"></a>Fournitures pour album photo</th>
-									<td class="sous_menu"><a href="http://"></a>Accessoires, entretien</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">5.</span> Thermorelieur EVA/PUR</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Perfect Binder (SECURA, ELITE, PUREVA)</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Encollage à froid</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Couverture emboitage</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Intercalaires neutres</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Fotomount</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle</td>
-								</tr>
-								<tr>
-									<th><a href="http://"></a>Reliure par bande thermo-collante</th>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Casematic</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Colle PUR</td>
-								</tr>
-								<tr>
-									<td><a href="http://"></a><span class="pointer">1.</span> Thermorelieur : Fastback et Planax</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Booxter</td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Produits de nettoyage</td>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Intercalaires alphabétiques</td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Case Express</td>
+									<th><a href="http://"></a>Organisation comptable</th>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Intercalaires numériques</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td class="pointer9"><a href="http://"></a><span>&#10003;</span> Version Chemise</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Intercalaires mensuels</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td class="sous_menu"><a href="http://"></a>Dossier de travail permanent</td>
 									<td></td>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 350</td>
-									<td></td>
+									<td class="sous_menu"><a href="http://"></a>Dossier de travail annuel</td>
+									<th><a href="http://"></a>Papeterie comptable</th>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Hard Cover Maker 650</td>
-									<td></td>
+									<td class="pointer9"><a href="http://"></a><span>&#10003;</span> Version Intercalaire</td>
+									<th><a href="http://"></a>Document de travail</th>
 								</tr>
 								<tr>
 									<td></td>
-									<td><a href="http://"></a><span class="pointer">&#10003;</span> Couvertures clipsées, Book photo sans machine</td>
+									<td class="sous_menu"><a href="http://"></a>Dossier de travail permanent</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Notes de Contrôle</td>
+								</tr>
+								<tr>
 									<td></td>
+									<td class="sous_menu"><a href="http://"></a>Dossier de travail annuel</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Notes de Conclusion sur papier bleu clair</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Dossier de controle</td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Notes de Travail sur papier couleur</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Chef Mission</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td><a href="http://"></a><span class="pointer9">&#10003;</span> Note Neutre sur offset Couleur</td>
 								</tr>
 							</tbody>
 						</table>
 						<div class="row basmenu">
-						<a href="http://">Voir toutes les reliures thermiques - thermorelieurs - reliures rigides</a>&emsp;&emsp;
-						<a href="http://">Voir la reliure dos carré collé</a>
+						<a href="http://">Voir tous les documents de travail</a>
 						</div>
+						<br>
 					</ul>
 				</div>
 				</li>   
@@ -1362,7 +1342,7 @@
             var iCurScrollPos = $(this).scrollTop();
 
             // Vérifie si le scroll est supérieur à 200px
-            if (iCurScrollPos > 200) {
+            if (iCurScrollPos > 150) {
                 if (iCurScrollPos > iScrollPos) {
                     // Défilement vers le bas
                     $('header').fadeOut(500);
