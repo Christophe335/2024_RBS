@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_res.css">
-    
-    <title>admin</title>
-</head> 
-<body>
-    <header>
-    <?php include 'header.php' ?>
-    </header>
-
-<div class="espace"></div>
 <?php
+// Vérification de la session
+if (!empty($_SESSION['panier'])) {
+    $ids = implode(',', array_keys($_SESSION['panier']));
+    $query = $pdo->query("SELECT * FROM articles WHERE id IN ($ids)");
+    if ($query) {
+        $panier_articles = $query->fetchAll(PDO::FETCH_ASSOC);
+    } else {
+        echo "Erreur lors de la récupération des articles : " . $pdo->errorInfo()[2];
+    }
+}
+
 session_start();
 include 'db_connect.php';
 
@@ -53,29 +48,36 @@ if (isset($_GET['action']) && $_GET['action'] === 'delete' && isset($_GET['id'])
 $query = $pdo->query("SELECT * FROM articles");
 $articles = $query->fetchAll(PDO::FETCH_ASSOC);
 ?>
-
-
-    <header>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_res.css">
+    <title>Administration des Articles</title>
+</head> 
+<body>
+    <?php include 'header.php' ?>
+    <div class="espace"></div>
         <h1>Administration des Articles</h1>
-    </header>
     <main>
         <section>
             <h2>Ajouter un article</h2>
             <form method="POST">
-                <input type="text" name="reference_article" placeholder="Référence" required>
-                <input type="text" name="nom_article" placeholder="Nom" required><br>
-                <input type="number" step="0.01" name="prix_article" placeholder="Prix" required>
+                <input class="select select0" type="text" name="reference_article" placeholder="Référence" required>
+                <input class="select select3" type="text" name="nom_article" placeholder="Nom" required>
+                <input class="select select1" type="number" step="0.01" name="prix_article" placeholder="Prix" required>
+                <input class="select select1" type="number" step="0.01" name="prix_promo" placeholder="Prix Promo">
+                <input class="select select1" type="text" name="categorie_article" placeholder="Catégorie" required>
+                <br><br>
+                <textarea class="select select2" name="description_article" placeholder="Description"></textarea>
+                <textarea class="select select2" name="caracteristique_article" placeholder="Caractéristiques"></textarea>
                 <br>
-                <input type="text" name="categorie_article" placeholder="Catégorie" required>
-                <input type="number" step="0.01" name="prix_promo" placeholder="Prix Promo"><br>
-                <textarea name="description_article" placeholder="Description"></textarea>
-                <textarea name="caracteristique_article" placeholder="Caractéristiques"></textarea>
-                <br>
-                <input type="text" name="lien_photo" placeholder="Lien Photo">
-                <button type="submit" name="add_article">Ajouter</button>
+                <input class="select select3" type="text" name="lien_photo" placeholder="Lien Photo">
+                <button class="bouton1" type="submit" name="add_article">Ajouter</button>
             </form>
         </section>
-
         <section>
             <h2>Liste des articles</h2>
             <table>
